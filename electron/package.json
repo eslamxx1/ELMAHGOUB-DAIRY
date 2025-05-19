@@ -1,0 +1,21 @@
+
+{
+  "name": "mahgoub-dairy-desktop",
+  "version": "1.0.0",
+  "description": "Mahgoub Dairy Management System",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "package": "cd .. && npx electron-builder build --config electron-builder.json"
+  },
+  "author": "Mahgoub Dairy",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^24.13.3"
+  }
+}

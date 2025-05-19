@@ -1,0 +1,27 @@
+
+{
+  "appId": "com.mahgoub.dairy",
+  "productName": "Mahgoub Dairy System",
+  "directories": {
+    "output": "release/"
+  },
+  "files": [
+    "electron/**/*",
+    "dist/**/*"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.js"
+  },
+  "win": {
+    "target": ["nsis"],
+    "icon": "public/favicon.ico"
+  },
+  "mac": {
+    "target": ["dmg"],
+    "icon": "public/favicon.ico"
+  },
+  "linux": {
+    "target": ["AppImage"],
+    "icon": "public/favicon.ico"
+  }
+}
